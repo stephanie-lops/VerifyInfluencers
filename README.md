@@ -31,6 +31,10 @@ Instalação de CORS:
 ```
 pip install django-cors-headers
 ```
+Instalação dotenv:
+```
+pip install python-dotenv
+```
 ## Para executar
 
 ```
