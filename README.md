@@ -5,9 +5,12 @@ An application challenge
 # Backend
 ## Primeiros passos
 
-Criar e instalar o ambiente virtual (Windowns):
+Criar o ambiente virtual venv:
 ```
 python -m venv venv
+```
+Ativar o ambiente virtual (Windowns):
+```
 .\venv\Scripts\Activate
 ```
 
@@ -66,7 +69,7 @@ Install React Router:
 ```
 npm install react-router-dom
 ```
-Install Bootstrap:
+Install Bootstrap (optional):
 ```
 npm install bootstrap
 ```
@@ -74,9 +77,9 @@ Install web-vitals module:
 ```
 npm install web-vitals
 ```
-:
+## Para executar
 ```
-
+npm start
 ```
 :
 ```
