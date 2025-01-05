@@ -35,6 +35,10 @@ Instalação dotenv:
 ```
 pip install python-dotenv
 ```
+Instalação Openai:
+```
+pip install openai
+```
 ## Para executar
 
 ```
@@ -88,6 +92,10 @@ npm install bootstrap
 Install web-vitals module:
 ```
 npm install web-vitals
+```
+Instalação Openai:
+```
+npm install openai
 ```
 ## Para executar
 ```
