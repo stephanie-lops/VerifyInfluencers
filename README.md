@@ -64,6 +64,9 @@ http://127.0.0.1:8000/api/influencer/<influencer_id>/claims/
 Start:
 ```
 cd verify-influencers-frontend
+```
+peerDependencies:
+```
 npm install --legacy-peer-deps
 ```
 Install Axios: To fetch data from your Django API, install Axios:
@@ -85,10 +88,6 @@ npm install web-vitals
 ## Para executar
 ```
 npm start
-```
-:
-```
-
 ```
 
 
