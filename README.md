@@ -2,6 +2,7 @@
 An application challenge
 
 
+# Backend
 ## Primeiros passos
 
 Criar e instalar o ambiente virtual (Windowns):
@@ -29,22 +30,57 @@ pip install requests djangorestframework openai
 python manage.py runserver
 ```
 
-Para buscar tweets de um influenciador:
+Fetch Tweets:
 ```
 http://127.0.0.1:8000/api/influencer/some_handle/tweets/
 ```
-Para verificar as claims de um influenciador:
+Analyze Claims:
 ```
 http://127.0.0.1:8000/api/influencer/some_handle/claims/
 ```
-You can test the APIs using tools like Postman or cURL:
+Verify Claim:
 ```
-Fetch Tweets: /api/influencer/<twitter_handle>/tweets/
-Analyze Claims: /api/influencer/<twitter_handle>/claims/
-Verify Claim: /api/verify-claim/
-Leaderboard: /api/leaderboard/
-Influencer Claims: /api/influencer/<influencer_id>/claims/
+http://127.0.0.1:8000/api/verify-claim/
+```
+Leaderboard:
+```
+http://127.0.0.1:8000/api/leaderboard/
+```
+Influencer Claims:
+```
+http://127.0.0.1:8000/api/influencer/<influencer_id>/claims/
 ```
 
+# Frontend
+
+Start:
+```
+cd verify-influencers-frontend
+npm install --legacy-peer-deps
+```
+Install Axios: To fetch data from your Django API, install Axios:
+```
+npm install axios
+```
+Install React Router:
+```
+npm install react-router-dom
+```
+Install Bootstrap:
+```
+npm install bootstrap
+```
+Install web-vitals module:
+```
+npm install web-vitals
+```
+:
+```
+
+```
+:
+```
+
+```
 
 
