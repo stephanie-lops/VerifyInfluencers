@@ -4,7 +4,7 @@ An application challenge
 
 ## Primeiros passos
 
-Para executar o projeto, criar e instalar o ambiente virtual (Windowns):
+Criar e instalar o ambiente virtual (Windowns):
 ```
 python -m venv venv
 .\venv\Scripts\Activate
@@ -36,7 +36,6 @@ http://127.0.0.1:8000/api/influencer/some_handle/tweets/
 Para verificar as claims de um influenciador:
 ```
 http://127.0.0.1:8000/api/influencer/some_handle/claims/
-
 ```
 You can test the APIs using tools like Postman or cURL:
 ```
