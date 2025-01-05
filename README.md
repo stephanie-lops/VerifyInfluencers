@@ -27,6 +27,10 @@ Instalação de bibliotecas:
 ```
 pip install requests djangorestframework openai
 ```
+Instalação de CORS:
+```
+pip install django-cors-headers
+```
 ## Para executar
 
 ```
