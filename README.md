@@ -32,6 +32,7 @@ pip install requests djangorestframework openai
 ```
 python manage.py runserver
 ```
+## Django REST Framework
 
 Fetch Tweets:
 ```
