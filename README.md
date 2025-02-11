@@ -1,45 +1,44 @@
 # VerifyInfluencers
 An application challenge
 
-
 # Backend
-## Primeiros passos
+## Getting Started
 
-Criar o ambiente virtual venv:
+Create the venv virtual environment:
 ```
 python -m venv venv
 ```
-Ativar o ambiente virtual (Windowns):
+Activate the virtual environment (Windowns):
 ```
 .\venv\Scripts\Activate
 ```
 
-Instalar Django:
+Install Django:
 ```
 pip install django
 ```
-Verificar instalação do Django:
+Verify Django installation:
 ```
 python -m django --version
 ```
 
-Instalação de bibliotecas:
+Install libraries:
 ```
 pip install requests djangorestframework openai
 ```
-Instalação de CORS:
+Install CORS:
 ```
 pip install django-cors-headers
 ```
-Instalação dotenv:
+Install dotenv:
 ```
 pip install python-dotenv
 ```
-Instalação Openai:
+Install Openai:
 ```
 pip install openai
 ```
-## Para executar
+## To to execute
 
 ```
 python manage.py runserver
@@ -93,13 +92,12 @@ Install web-vitals module:
 ```
 npm install web-vitals
 ```
-Instalação Openai:
+Openai Installation:
 ```
 npm install openai
 ```
-## Para executar
+## To run
 ```
 npm start
 ```
-
 
